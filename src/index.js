@@ -1,17 +1,26 @@
 import React from 'react';
+import posed from 'react-pose'
 import ReactDOM from 'react-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
+import About from './component/About';
+import Work from './component/Work';
+import Contact from './component/Contact';
+import Home from './component/Home';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ToDo from './ToDo';
+import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  <BrowserRouter>
+    <ToDo />
+    <Route exact path={'/'} component={Home}/>
+    <Route path={'/about'}  component={About}/>
+    <Route path={'/work'} component={Work}/>
+    <Route path={'/contact'} component={Contact}/>
+  </BrowserRouter>
+  , document.getElementById('root'));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

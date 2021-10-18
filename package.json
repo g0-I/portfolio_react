@@ -1,15 +1,18 @@
 {
-  "name": "portfolio-react",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "@react-three/fiber": "^7.0.16",
+    "history": "4.9.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-pose": "4.0.8",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "3.0.1",
+    "react-three-renderer": "3.2.4",
+    "three": "^0.133.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,10 +21,11 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kentaroyamada91011/portfolio.git"
   },
   "browserslist": {
     "production": [
