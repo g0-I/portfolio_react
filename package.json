@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "  https://g0-i.github.io/portfolio_react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +15,8 @@
     "react-three-renderer": "3.2.4",
     "three": "^0.133.1"
   },
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
