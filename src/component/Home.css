@@ -2,9 +2,6 @@
   display: flex;
 }
 
-.home__name {
-}
-
 .home__description {
   position: absolute;
   display: flex;
