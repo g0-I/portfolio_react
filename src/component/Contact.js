@@ -1,7 +1,6 @@
 import React from 'react'
 import Card from './Card'
 import BorderYellow from './Border'
-import facebook from '../images/icons/facebook.jpg'
 import twitter from '../images/icons/twitter.png'
 import github from '../images/icons/github.png'
 import qiita from '../images/icons/qiita.jpg'
