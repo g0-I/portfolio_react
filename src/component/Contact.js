@@ -1,5 +1,4 @@
 import React from 'react'
-import Card from './Card'
 import BorderYellow from './Border'
 import twitter from '../images/icons/twitter.png'
 import github from '../images/icons/github.png'
