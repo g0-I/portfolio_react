@@ -11,7 +11,7 @@ class About extends React.Component {
       <div  className="wrapper">
         <BorderYellow  />
         <div className="about__main">
-          <h1 className="about__title">SNS</h1>
+          <h1 className="about__title">Contact</h1>
           <div className="about__container">
             <ul class="footer-share">
               <li class="contact__list">
