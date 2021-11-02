@@ -28,6 +28,7 @@ class About extends React.Component {
                 </tr>
               </table>
               <div className="about__container__lists">
+                <li className="about__container__list">2015/01　　　　QA業界でのキャリアスタート</li>
                 <li className="about__container__list">2018/12　　　　LINE Fukuoka株式会社にQAエンジニアとして入社</li>
                 <li className="about__container__list">2019/06~現在　テスト自動化エンジニアとして活動中</li>
               </div>
