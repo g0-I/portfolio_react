@@ -15,7 +15,7 @@ class About extends React.Component {
           <div className="about__container">
             <div className="about__container__head skill">WORKS</div>
             <div className="cards">
-              <Card img={portfolio} title="portfolioサイト" lead="画面をスクロールするとタイピング風に文字が表示されるポートフォリオサイト" link="https://g0-i.github.io/portfolio/"/>
+              <Card img={portfolio} title="portfolio" lead="画面をスクロールするとタイピング風に文字が表示されるポートフォリオサイト" link="https://g0-i.github.io/portfolio/"/>
             </div>
           </div>
         </div>
