@@ -11,7 +11,7 @@ class About extends React.Component {
       <div className="wrapper">
         <BorderGreen />
         <div className="about__main">
-          <h1 className="about__title"></h1>
+          {/* <h1 className="about__title"></h1> */}
           <div className="about__container">
             <div className="about__container__head skill">WORKS</div>
             <div className="cards">
