@@ -15,17 +15,17 @@ class About extends React.Component {
           <div className="about__container">
             <ul class="footer-share">
               <li class="contact__list">
-                <a href="https://twitter.com/g04160" target="_blank" rel="nofollow">
+                <a href="https://twitter.com/g04160" target="_blank" rel="noopener noreferrer">
                   <img src={twitter} className="sns__img"　alt="twitter"/>
                 </a>
               </li>
               <li class="contact__list">
-                <a href="https://github.com/g0-I" target="_blank" rel="nofollow">
+                <a href="https://github.com/g0-I" target="_blank" rel="noopener noreferrer">
                   <img src={github} className="sns__img"　alt="github"/>
                 </a>
               </li>
               <li class="contact__list">
-                <a href="https://qiita.com/g0-I" target="_blank" rel="nofollow">
+                <a href="https://qiita.com/g0-I" target="_blank" rel="noopener noreferrer">
                   <img src={qiita} className="sns__img"　alt="wiita"/>
                 </a>
               </li>
