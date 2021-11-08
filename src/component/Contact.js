@@ -33,7 +33,7 @@ class About extends React.Component {
           </div>
         </div>
         <div className="about__main">
-          <h1 className="about__title">e-mail</h1>
+          <h1 className="about__title">E-Mail</h1>
           <div className="contact__mail">
             itayama.go5@gmail.com
           </div>
