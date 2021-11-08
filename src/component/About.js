@@ -15,7 +15,7 @@ class About extends React.Component {
         <div className="about__main">
           <h1 className="about__title">Go Itatayama</h1>
           <div className="about__container">
-            <div className="about__container__head">CAREER</div>
+            <div className="about__container__head">Career</div>
             <div className="about__container__description">
               <table>
                 <tr>
@@ -35,7 +35,7 @@ class About extends React.Component {
             </div>
           </div>
           <div className="about__container">
-            <div className="about__container__head skill">SKILL</div>
+            <div className="about__container__head skill">Skill</div>
             <div className="cards">
               <Card img={js} title="Javascript" lead="E2Eテスト自動化の実装に使用"/>
               <Card img={python} title="python" lead="E2Eテスト自動化の実装や、LINEのメッセージAPI実行の自動化に使用。"/>
