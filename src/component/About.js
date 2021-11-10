@@ -37,7 +37,7 @@ class About extends React.Component {
           <div className="about__container">
             <div className="about__container__head skill">Skill</div>
             <div className="cards">
-              <Card img={js} title="Javascript" lead="E2Eテスト自動化の実装に使用"/>
+              <Card img={js} title="Javascript" lead="E2Eテスト自動化の実装に使用(mocha)"/>
               <Card img={python} title="python" lead="E2Eテスト自動化の実装や、LINEのメッセージAPI実行の自動化に使用。"/>
               <Card img={html} title="HTML/CSS" lead="内製の仕様管理ツール作成に使用。（フロントエンド）"/>
               <Card img={php} title="PHP" lead="内製の仕様管理ツール作成に使用。（バックエンド）"/>
