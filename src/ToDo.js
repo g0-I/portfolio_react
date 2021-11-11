@@ -33,10 +33,10 @@ class ToDo extends Component {
       <div>
         <Nav className="nav" pose={this.state.isVisible ? 'visible' : 'hidden'} >
           <ul className="navbar">
-            <li className="navbar__item"><Link className="navbar__link" to="/">home</Link></li>
-            <li className="navbar__item"><Link className="navbar__link" to="/about">about</Link></li>
-            <li className="navbar__item"><Link className="navbar__link" to="/work">work</Link></li>
-            <li className="navbar__item"><Link className="navbar__link" to="/contact">contact</Link></li>
+            <li className="navbar__item"><Link className="navbar__link" to="/">Home</Link></li>
+            <li className="navbar__item"><Link className="navbar__link" to="/about">About</Link></li>
+            <li className="navbar__item"><Link className="navbar__link" to="/work">Work</Link></li>
+            <li className="navbar__item"><Link className="navbar__link" to="/contact">Contact</Link></li>
           </ul>
         </Nav>
       </div>
